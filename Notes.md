@@ -17,3 +17,7 @@ Update the database to include and update your models
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+```
+pip list --format=freeze > requirements.txt
+```
